@@ -1,0 +1,4 @@
+{
+    "name": "BuildBot CouchApp",
+    "description": "A CouchApp that indexes the results of a BuildBot build."
+}
