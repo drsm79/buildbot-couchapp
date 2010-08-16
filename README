@@ -1,6 +1,6 @@
 A CouchApp that indexes BuildBot builds
 
-Get your BuildBot build slaves to fire a document like below for each test that
+Get your BuildBot build slaves to fire a document like below for each unit test that
 fails.
 
 {
