@@ -1,0 +1,20 @@
+A CouchApp that indexes BuildBot builds
+
+Get your BuildBot build slaves to fire a document like below for each test that
+fails.
+
+{
+    "test_name": test_name, 
+    "builder": builder, 
+    "timestamp": timestamp, 
+    "bld_id": build_id, 
+    "step": step,
+    "reason": reason
+}
+
+ * test_name: the test that has failed
+ * builder: the name of the build slave
+ * timestamp: when the test failed
+ * bld_id: the id of the build
+ * step: the build step that failed
+ * reason: the failure message
